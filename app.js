@@ -29,7 +29,8 @@ if (typeof document !== 'undefined') (() => {
   const info = byId('info-dialog');
   const image = byId('post-image');
   const video = byId('post-video');
-  const storageKey = 'elena-profile-saved-v1';
+  byId('publication-count').textContent = String(data.posts.length);
+  const storageKey = 'elena-profile-saved-month-2026-11-20';
   let saved = new Set();
   try { saved = parseSavedIds(localStorage.getItem(storageKey)); } catch { /* Private browsing may deny storage. */ }
   const liked = new Set();
@@ -164,7 +165,8 @@ if (typeof document !== 'undefined') (() => {
     const current = visible.findIndex(post => post.id === activePost.id);
     byId('post-title').textContent = activePost.title;
     byId('post-caption').textContent = activePost.caption || '';
-    byId('post-format').textContent = ({ image: 'Публикация', carousel: 'Карусель', reel: 'Reels' })[activePost.type];
+    const format = ({ image: 'Публикация', carousel: 'Карусель', reel: 'Reels' })[activePost.type];
+    byId('post-format').textContent = activePost.day ? `${format} · День ${activePost.day} из 30` : format;
     byId('prev-post').disabled = current <= 0;
     byId('next-post').disabled = current < 0 || current >= visible.length - 1;
     byId('save-button').setAttribute('aria-pressed', String(saved.has(activePost.id)));
@@ -311,8 +313,8 @@ if (typeof document !== 'undefined') (() => {
   });
   byId('message-button').addEventListener('click', () => showInfo('Сообщения', 'Сейчас здесь можно посмотреть профиль и публикации. Переписка в этом макете не подключена.'));
   document.querySelectorAll('[data-info]').forEach(button => button.addEventListener('click', () => {
-    if (button.dataset.info === 'about-elena') showInfo('Елена Зайцева', 'Мебель для ресторанов, отелей и офисов. Петербург · работаем по России.');
-    else showInfo('Предпросмотр профиля', 'Это отдельный макет страницы Елены. Сейчас используются девять сохранённых обложек. Контент месяца добавим после завершения просмотрщика.\n\nСчётчики демонстрационные. Лайки и сохранения остаются в этом браузере.');
+    if (button.dataset.info === 'about-elena') showInfo('Елена Зайцева', 'Хозяйка мебельной фабрики. Мебель, дизайн и интерьеры. Петербург · работаем по России.');
+    else showInfo('Предпросмотр профиля', 'Здесь собран месяц публикаций Елены: фотографии, карусели и Reels. Сетка показывает профиль к концу месяца — новые публикации сверху.\n\nМатериалы для обсуждения. Пометки внутри карточек показывают, что ещё предстоит снять. Счётчики подписчиков и подписок демонстрационные. Лайки действуют до обновления страницы. Сохранения остаются в этом браузере.');
   }));
   for (const element of [image, video]) element.addEventListener('error', () => {
     byId('media-notice').textContent = 'Не удалось загрузить материал. Закройте публикацию и попробуйте открыть её снова.';
