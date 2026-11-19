@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Предпросмотр Instagram-профиля Елены Зайцевой: мебель, проекты и производство.">
+  <title>Елена Зайцева — предпросмотр Instagram</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#profile">Перейти к профилю</a>
+  <aside class="sidebar" aria-label="Навигация предпросмотра">
+    <a class="wordmark" href="#profile" aria-label="Instagram — профиль Елены">Instagram</a>
+    <nav class="side-nav" aria-label="Разделы">
+      <button class="nav-link active" data-tab="posts" type="button" aria-label="Профиль"><img src="assets/icons/user.svg" alt=""><span>Профиль</span></button>
+      <button class="nav-link" data-tab="reels" type="button" aria-label="Reels"><img src="assets/icons/movie.svg" alt=""><span>Reels</span></button>
+      <button class="nav-link" data-tab="saved" type="button" aria-label="Сохранённое"><img src="assets/icons/bookmark.svg" alt=""><span>Сохранённое</span></button>
+    </nav>
+    <div class="sidebar-bottom">
+      <button class="nav-link" type="button" data-info="about" aria-label="Ещё"><img src="assets/icons/menu-2.svg" alt=""><span>Ещё</span></button>
+    </div>
+  </aside>
+
+  <main id="profile" class="profile" tabindex="-1">
+    <header class="mobile-header">
+      <span class="mobile-wordmark">Instagram</span>
+      <span class="mobile-username">__elena_zaitseva___</span>
+      <button class="icon-button" type="button" data-info="about" aria-label="Меню"><img src="assets/icons/menu-2.svg" alt=""></button>
+    </header>
+
+    <section class="profile-overview" aria-label="Елена Зайцева">
+      <button class="avatar-button" type="button" data-info="about-elena" aria-label="О Елене Зайцевой">
+        <span class="avatar-ring"><img class="profile-avatar" src="assets/thumbs/avatar.webp" width="180" height="180" alt="Елена Зайцева"></span>
+      </button>
+      <div class="profile-info">
+        <div class="identity-row">
+          <h1 id="username">__elena_zaitseva___</h1>
+          <div class="profile-actions">
+            <button id="follow-button" class="button primary" type="button" aria-pressed="false">Подписаться</button>
+            <button id="message-button" class="button" type="button">Сообщение</button>
+          </div>
+        </div>
+        <div class="metrics" aria-label="Демонстрационные счётчики профиля">
+          <div><strong>48</strong><span>публикаций</span></div>
+          <div><strong>1 154</strong><span>подписчиков</span></div>
+          <div><strong>2 797</strong><span>подписок</span></div>
+        </div>
+        <div class="bio">
+          <p class="profile-name">Елена Зайцева | мебель для бизнеса</p>
+          <p class="category">Предприниматель</p>
+          <p>Мебель для ресторанов, отелей и офисов<br>От чертежей до монтажа — показываю весь процесс<br>Петербург · работаем по России</p>
+          <a class="profile-link" href="https://profmebel.group" target="_blank" rel="noopener noreferrer"><img src="assets/icons/link.svg" alt="">profmebel.group</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="highlights" class="highlights" aria-label="Актуальное"></section>
+
+    <div class="profile-tabs" role="tablist" aria-label="Публикации профиля">
+      <button id="tab-posts" type="button" role="tab" data-tab="posts" aria-label="Публикации" aria-selected="true" aria-controls="post-grid" tabindex="0"><img src="assets/icons/grid-dots.svg" alt=""><span>Публикации</span></button>
+      <button id="tab-reels" type="button" role="tab" data-tab="reels" aria-label="Reels" aria-selected="false" aria-controls="post-grid" tabindex="-1"><img src="assets/icons/movie.svg" alt=""><span>Reels</span></button>
+      <button id="tab-saved" type="button" role="tab" data-tab="saved" aria-label="Сохранённое" aria-selected="false" aria-controls="post-grid" tabindex="-1"><img src="assets/icons/bookmark.svg" alt=""><span>Сохранённое</span></button>
+    </div>
+    <section id="post-grid" class="post-grid" role="tabpanel" aria-labelledby="tab-posts"></section>
+    <section id="empty-state" class="empty-state" hidden>
+      <img src="assets/icons/bookmark.svg" alt="">
+      <h2 id="empty-title">Пока нет сохранённых публикаций</h2>
+      <p id="empty-text">Откройте публикацию и нажмите на закладку.</p>
+    </section>
+    <noscript><p class="noscript">Чтобы открывать публикации, включите JavaScript в браузере.</p></noscript>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Мобильная навигация">
+    <button type="button" class="icon-button active" data-tab="posts" aria-label="Профиль"><img src="assets/icons/user.svg" alt=""></button>
+    <button type="button" class="icon-button" data-tab="reels" aria-label="Reels"><img src="assets/icons/movie.svg" alt=""></button>
+    <button type="button" class="icon-button" data-tab="saved" aria-label="Сохранённое"><img src="assets/icons/bookmark.svg" alt=""></button>
+  </nav>
+
+  <dialog id="post-dialog" class="post-dialog" aria-labelledby="post-title">
+    <div class="post-topbar">
+      <div class="publication-navigation" aria-label="Навигация по публикациям">
+        <button id="prev-post" class="icon-button" type="button" aria-label="Предыдущая публикация" title="Предыдущая публикация"><img src="assets/icons/chevron-left.svg" alt=""></button>
+        <button id="next-post" class="icon-button" type="button" aria-label="Следующая публикация" title="Следующая публикация"><img src="assets/icons/chevron-right.svg" alt=""></button>
+      </div>
+      <span>Публикации</span>
+      <button id="close-post" class="icon-button close-post" type="button" aria-label="Закрыть публикацию"><img src="assets/icons/x.svg" alt=""></button>
+    </div>
+    <div class="post-viewer">
+      <div class="post-media">
+        <img id="post-image" src="assets/thumbs/post-01.webp" alt="" width="1080" height="1350" hidden>
+        <video id="post-video" controls playsinline preload="metadata" hidden aria-label="Видео публикации"></video>
+        <button id="prev-slide" class="icon-button slide-arrow previous" type="button" aria-label="Предыдущий слайд" hidden><img src="assets/icons/chevron-left.svg" alt=""></button>
+        <button id="next-slide" class="icon-button slide-arrow next" type="button" aria-label="Следующий слайд" hidden><img src="assets/icons/chevron-right.svg" alt=""></button>
+        <span id="slide-counter" class="slide-counter" aria-live="polite" aria-atomic="true" hidden></span>
+        <div id="slide-dots" class="slide-dots" role="group" aria-label="Слайды карусели" hidden></div>
+      </div>
+      <div class="post-details">
+        <div class="post-author"><img src="assets/thumbs/avatar.webp" width="36" height="36" alt=""><strong>__elena_zaitseva___</strong></div>
+        <div class="post-copy">
+          <p id="post-format" class="post-format"></p>
+          <h2 id="post-title"></h2>
+          <p id="post-caption" class="post-caption"></p>
+          <p id="media-notice" class="media-notice" hidden></p>
+        </div>
+        <div class="post-actions">
+          <button id="like-button" class="icon-button" type="button" aria-label="Поставить отметку «Нравится»" aria-pressed="false"><img src="assets/icons/heart.svg" alt=""></button>
+          <span class="local-action-note">Только в предпросмотре</span>
+          <button id="save-button" class="icon-button" type="button" aria-label="Сохранить публикацию" aria-pressed="false"><img src="assets/icons/bookmark.svg" alt=""></button>
+        </div>
+        <p class="post-draft-note">Черновик публикации · для обсуждения</p>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title" aria-describedby="info-text">
+    <button id="close-info" class="icon-button close-info" type="button" aria-label="Закрыть"><img src="assets/icons/x.svg" alt=""></button>
+    <h2 id="info-title"></h2>
+    <p id="info-text"></p>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
