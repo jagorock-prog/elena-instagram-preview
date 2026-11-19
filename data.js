@@ -22,15 +22,15 @@ globalThis.ELENA_DATA = {
     { id: 'post-08', type: 'carousel', title: 'Мягкая мебель в интерьере', alt: 'Подборка кресел и модульного дивана' },
     { id: 'post-09', type: 'image', title: 'Дерево и камень: как сочетать материалы', alt: 'Дерево и зелёный камень в интерьере' }
   ].map(post => ({
-    ...post,
-    cover: `assets/${post.id}.png`,
-    thumbnail: `assets/thumbs/${post.id}.webp`,
-    media: [{ type: 'image', src: `assets/${post.id}.png`, alt: post.alt }],
+    cover: post.cover || `assets/${post.id}.png`,
+    thumbnail: post.thumbnail || post.cover || `assets/thumbs/${post.id}.webp`,
+    media: [{ type: 'image', src: post.cover || `assets/${post.id}.png`, alt: post.alt }],
     caption: 'Сохранённый макет публикации. Подпись добавим на этапе подготовки контента.',
     notice: post.type === 'reel'
       ? 'Пока готова обложка. Видео появится после подготовки контента.'
       : post.type === 'carousel'
         ? 'Пока готова обложка. Остальные слайды добавим при подготовке карусели.'
-        : ''
+        : '',
+    ...post
   }))
 };
