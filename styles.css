@@ -28,6 +28,7 @@ button:disabled { opacity: .35; cursor: default; }
 button:active:not(:disabled) { transform: scale(.97); }
 img { display: block; max-width: 100%; }
 [hidden] { display: none !important; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 ::selection { color: var(--chocolate); background: var(--ecru); }
 .skip-link { position: fixed; z-index: 20; top: -80px; left: 16px; padding: 12px 18px; background: var(--text); color: #fff; }
 .skip-link:focus { top: 16px; }
@@ -116,20 +117,19 @@ body:has(dialog[open]) { overflow: hidden; }
 .slide-dots > span { width: 6px; height: 6px; margin: 9px 4px; border-radius: 50%; background: #ffffff80; }
 .slide-dots > span.active { background: #fff; }
 .post-details { display: flex; flex-direction: column; min-width: 0; }
-.post-author { display: flex; align-items: center; gap: 10px; min-height: 68px; padding: 15px 52px 15px 20px; border-bottom: 1px solid var(--line); font-size: .8125rem; }
+.post-author { display: flex; align-items: center; gap: 10px; min-height: 68px; padding: 12px 12px 12px 20px; border-bottom: 1px solid var(--line); font-size: .8125rem; }
 .post-author > img { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
 .post-author > strong { overflow-wrap: anywhere; }
+.post-menu { margin-left: auto; flex: none; }
 .post-copy { flex: 1; padding: 24px 22px; overflow-y: auto; }
-.post-format { margin: 0 0 12px; color: var(--muted); font-size: .75rem; line-height: 1.6; }
-.post-copy h2 { margin: 0 0 16px; font-size: 1.125rem; line-height: 1.4; }
-.post-caption { margin: 0; font-size: .875rem; line-height: 1.7; white-space: pre-line; }
+.post-caption { margin: 0; font-size: .875rem; line-height: 1.7; }
+.caption-author { font-weight: 600; }
+#post-caption { white-space: pre-line; }
 .media-notice { margin: 18px 0 0; color: var(--muted); font-size: .8125rem; line-height: 1.6; }
 .post-actions { display: flex; align-items: center; gap: 5px; padding: 8px 10px 0; border-top: 1px solid var(--line); }
 .post-actions #save-button { margin-left: auto; }
 .post-actions [aria-pressed="true"] { background: var(--ecru); }
 .post-actions #like-button[aria-pressed="true"] { background: #fce8ec; }
-.local-action-note, .post-draft-note { color: var(--muted); font-size: .75rem; line-height: 1.5; }
-.post-draft-note { margin: 0; padding: 4px 20px 16px; }
 .info-dialog { width: 440px; padding: 42px 30px 32px; border-radius: 12px; }
 .close-info { position: absolute; top: 6px; right: 6px; }
 .info-dialog h2 { margin: 0 0 12px; font-size: 1.25rem; line-height: 1.4; }
@@ -181,18 +181,15 @@ body:has(dialog[open]) { overflow: hidden; }
   .post-mark { top: 7px; right: 7px; }
   .post-dialog { width: 100%; height: 100dvh; max-width: 100%; max-height: 100dvh; margin: 0; border-radius: 0; }
   .post-viewer { display: flex; flex-direction: column; }
-  .post-media { width: 100%; height: auto; min-height: 0; aspect-ratio: 4 / 5; max-height: 67dvh; }
+  .post-media { order: 1; width: 100%; height: auto; min-height: 0; aspect-ratio: 4 / 5; max-height: 67dvh; }
   .post-media:has(#post-video:not([hidden])) { height: 67dvh; aspect-ratio: auto; }
   #post-image, #post-video { height: 100%; max-height: 67dvh; }
-  .post-details { flex: 1; }
-  .post-author { display: none; }
-  .post-copy { padding: 18px 18px 22px; overflow: visible; }
-  .post-copy h2 { margin-bottom: 12px; font-size: 1rem; }
+  .post-details { display: contents; }
+  .post-author { order: 0; display: flex; min-height: 58px; padding: 7px 12px; border-bottom: 0; }
+  .post-author > img { width: 32px; height: 32px; }
+  .post-copy { order: 3; padding: 0 16px 22px; overflow: visible; }
   .post-caption { font-size: .8125rem; line-height: 1.6; }
-  .post-format { margin-bottom: 8px; }
-  .post-actions { padding-top: 5px; }
-  .local-action-note { font-size: .75rem; }
-  .post-draft-note { padding-bottom: 13px; }
+  .post-actions { order: 2; padding: 4px 8px; border-top: 0; }
   .info-dialog { padding: 45px 24px 28px; }
   .toast { bottom: calc(16px + env(safe-area-inset-bottom)); }
 }
