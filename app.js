@@ -29,7 +29,6 @@ if (typeof document !== 'undefined') (() => {
   const info = byId('info-dialog');
   const image = byId('post-image');
   const video = byId('post-video');
-  byId('publication-count').textContent = String(data.posts.length);
   const storageKey = 'elena-profile-saved-month-2026-11-20';
   let saved = new Set();
   try { saved = parseSavedIds(localStorage.getItem(storageKey)); } catch { /* Private browsing may deny storage. */ }
@@ -41,6 +40,16 @@ if (typeof document !== 'undefined') (() => {
   let ownsHistoryEntry = false;
   let pointerStart = null;
   let toastTimer;
+
+  document.querySelectorAll('[data-preview-view]').forEach(button => {
+    button.addEventListener('click', () => {
+      const view = button.dataset.previewView;
+      document.querySelector('.preview-shell').dataset.view = view;
+      document.querySelectorAll('[data-preview-view]').forEach(item => {
+        item.setAttribute('aria-pressed', String(item === button));
+      });
+    });
+  });
 
   function icon(name, className = '') {
     const img = document.createElement('img');
@@ -314,7 +323,9 @@ if (typeof document !== 'undefined') (() => {
   byId('message-button').addEventListener('click', () => showInfo('Сообщения', 'Сейчас здесь можно посмотреть профиль и публикации. Переписка в этом макете не подключена.'));
   document.querySelectorAll('[data-info]').forEach(button => button.addEventListener('click', () => {
     if (button.dataset.info === 'about-elena') showInfo('Елена Зайцева', 'Хозяйка мебельной фабрики. Мебель, дизайн и интерьеры. Петербург · работаем по России.');
-    else showInfo('Предпросмотр профиля', 'Здесь собран месяц публикаций Елены: фотографии, карусели и Reels. Сетка показывает профиль к концу месяца — новые публикации сверху.\n\nМатериалы для обсуждения. Пометки внутри карточек показывают, что ещё предстоит снять. Счётчики подписчиков и подписок демонстрационные. Лайки действуют до обновления страницы. Сохранения остаются в этом браузере.');
+    else if (button.dataset.info === 'search') showInfo('Поиск', 'В этом макете работает просмотр профиля и публикаций. Поиск не подключён.');
+    else if (button.dataset.info === 'create') showInfo('Новая публикация', 'Это режим предпросмотра. Публикации здесь не отправляются в настоящий Instagram.');
+    else showInfo('Предпросмотр профиля', 'Здесь собраны четыре согласованные публикации Елены: две карусели и два Reels. Новые публикации расположены сверху.\n\nСчётчики подписчиков и подписок демонстрационные. Лайки действуют до обновления страницы. Сохранения остаются в этом браузере.');
   }));
   for (const element of [image, video]) element.addEventListener('error', () => {
     byId('media-notice').textContent = 'Не удалось загрузить материал. Закройте публикацию и попробуйте открыть её снова.';
