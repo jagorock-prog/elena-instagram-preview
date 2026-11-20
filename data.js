@@ -323,19 +323,19 @@ globalThis.ELENA_DATA = {
       "day": 19,
       "type": "reel",
       "title": "Мебель в контексте комнаты",
-      "caption": "Совсем разные интерьеры могут вызывать одно и то же желание — остаться и рассмотреть всё поближе.\n\nВ одном цепляет необычная форма дивана, в другом — почти пустой стол, в третьем — смелое соседство предметов. Из таких пересечений постепенно складывается вкус, которому бывает тесно в названии одного стиля.",
+      "caption": "Если это и твой вайб — оставайся.\nЗдесь будет много таких интерьеров.",
       "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
       "media": [
         {
           "type": "video",
           "src": "assets/month/reel-ref-v2-06.mp4",
-          "poster": "assets/month/reel-ref-v2-06-poster.jpg",
+          "poster": "assets/month/reel-ref-v2-06-poster.jpg?v=post-04-v2",
           "alt": "Мебель в контексте комнаты"
         }
       ],
-      "cover": "assets/month/reel-ref-v2-06-poster.jpg",
+      "cover": "assets/month/reel-ref-v2-06-poster.jpg?v=post-04-v2",
       "alt": "Мебель в контексте комнаты",
-      "thumbnail": "assets/month/thumb-19-reels-v2.webp"
+      "thumbnail": "assets/month/thumb-19-reels-v2.webp?v=post-04-v2"
     },
     {
       "id": "post-18",
