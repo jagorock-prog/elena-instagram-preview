@@ -511,14 +511,14 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-12/elena-order-stages-mock.mp4?v=approved-12-v3",
-          "poster": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v3",
-          "alt": "AI-макет: Елена в тёмно-синем костюме сидит в мягком кресле с маленьким микрофоном"
+          "src": "assets/month/approved/post-12/elena-order-stages-mock.mp4?v=approved-12-v4",
+          "poster": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v4",
+          "alt": "AI-макет: Елена сидит в мягком зелёном кресле, держит маленький микрофон; ракурс повторяет утверждённый шаблон разговорных Reels"
         }
       ],
-      "cover": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v3",
-      "alt": "Елена в тёмно-синем костюме рассказывает об этапах заказа мебели",
-      "thumbnail": "assets/month/approved/thumb-post-12.webp?v=approved-12-v3",
+      "cover": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v4",
+      "alt": "AI-макет: Елена сидит в мягком зелёном кресле, держит маленький микрофон; ракурс повторяет утверждённый шаблон разговорных Reels",
+      "thumbnail": "assets/month/approved/thumb-post-12.webp?v=approved-12-v4",
       "day": 12
     },
     {
