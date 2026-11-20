@@ -48,6 +48,48 @@ globalThis.ELENA_DATA = {
   ],
   "posts": [
     {
+      "id": "post-05",
+      "type": "carousel",
+      "title": "Предмет с историей: Eames Lounge Chair",
+      "caption": "В 1956 году Чарльз и Рэй Имз переосмыслили классическое клубное кресло.\n\nВместо тяжёлого объёма — три изогнутые фанерные оболочки. Вместо строгой посадки — мягкие съёмные подушки и слегка откинутая спинка.\n\nПолучился предмет, который выглядит собранным и архитектурным, но создавался прежде всего для отдыха. Возможно, именно поэтому почти за 70 лет он так и не превратился просто в музейную вещь.",
+      "notice": "Редакционный черновик. Факты сверены с Eames Office, Herman Miller и Vitra; права на официальные фотографии нужно согласовать перед публикацией.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-05/01.png",
+          "alt": "Обложка рубрики Предмет с историей — Eames Lounge Chair, 1956"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-05/02.png",
+          "alt": "Новая версия английского клубного кресла"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-05/03.png",
+          "alt": "Конструкция Eames Lounge Chair"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-05/04.png",
+          "alt": "Образ мягкой поношенной бейсбольной перчатки"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-05/05.png",
+          "alt": "Премьера Eames Lounge Chair в 1956 году"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-05/06.png",
+          "alt": "Почему Eames Lounge Chair не устарело"
+        }
+      ],
+      "cover": "assets/month/approved/post-05/01.png",
+      "alt": "Eames Lounge Chair на обложке карусели Предмет с историей",
+      "thumbnail": "assets/month/approved/thumb-post-05.webp?v=approved-5-v1"
+    },
+    {
       "id": "post-04",
       "type": "reel",
       "title": "If this is your vibe",
