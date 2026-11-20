@@ -125,7 +125,7 @@ body:has(dialog[open]) { overflow: hidden; }
 .post-caption { margin: 0; font-size: .875rem; line-height: 1.7; }
 .caption-author { font-weight: 600; }
 #post-caption { white-space: pre-line; }
-.media-notice { margin: 18px 0 0; color: var(--muted); font-size: .8125rem; line-height: 1.6; }
+.media-notice { margin: 18px 0 0; color: var(--muted); font-size: .8125rem; line-height: 1.6; text-wrap: pretty; }
 .post-actions { display: flex; align-items: center; gap: 5px; padding: 8px 10px 0; border-top: 1px solid var(--line); }
 .post-actions #save-button { margin-left: auto; }
 .post-actions [aria-pressed="true"] { background: var(--ecru); }
