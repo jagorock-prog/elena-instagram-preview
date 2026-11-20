@@ -3,10 +3,10 @@ globalThis.ELENA_DATA = {
   "username": "__elena_zaitseva___",
   "avatar": "assets/avatar.png",
   "month": {
-    "days": 12,
+    "days": 30,
     "order": "newest-first",
     "startDate": null,
-    "status": "approved_posts_preview"
+    "status": "full_month_preview"
   },
   "highlights": [
     {
@@ -48,6 +48,461 @@ globalThis.ELENA_DATA = {
   ],
   "posts": [
     {
+      "id": "post-30",
+      "day": 30,
+      "type": "carousel",
+      "title": "CH24: одна линия спинки",
+      "caption": "У CH24 узнаваемость буквально держится на букве Y.\n\nВ 1949 году Ханс Й. Вегнер объединил спинку и подлокотники в одну изогнутую линию. Y-образная деталь поддерживает её посередине, оставляя спинку открытой. То, что нужно конструкции, одновременно стало знаком всей модели.\n\nCarl Hansen & Søn выпускает стул с 1950 года. Его интересно рассматривать без разговоров о трендах: убрать или заменить центральную опору — и перед нами уже другой предмет.\n\nИзображение: Carl Hansen & Søn.",
+      "notice": "История дизайна · внешний предмет, не изделие фабрики. Изображение: Carl Hansen & Søn.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/design-07-01.png",
+          "alt": "Стул CH24 из дерева с Y-образной спинкой и плетёным сиденьем на светлом фоне."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-07-02.png",
+          "alt": "Крупный фрагмент CH24: объединённая линия спинки и подлокотников, Y-образная опора."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-07-03.png",
+          "alt": "Открытый силуэт стула CH24 и короткое наблюдение о его виде со спины."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/ch24"
+      ],
+      "cover": "assets/month/design-07-01.png",
+      "alt": "Стул CH24 из дерева с Y-образной спинкой и плетёным сиденьем на светлом фоне.",
+      "thumbnail": "assets/month/thumb-07.webp"
+    },
+    {
+      "id": "post-29",
+      "day": 29,
+      "type": "carousel",
+      "title": "Синий в гостиной",
+      "caption": "Большой диван может быть прекрасным фоном.\n\nЗдесь всё внимание досталось синим креслам. Мне нравится, что ради этого не понадобилось делать яркой самую крупную вещь в комнате. Удивлять может один предмет, а остальным достаточно быть ему хорошей компанией.",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-018.jpg",
+          "alt": "Ракурс гостиной с синим акцентом и металлическими деталями"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-016.jpg",
+          "alt": "Гостиная с синими акцентами и светлой мебелью"
+        }
+      ],
+      "cover": "assets/month/photo-018.jpg",
+      "alt": "Ракурс гостиной с синим акцентом и металлическими деталями",
+      "thumbnail": "assets/month/thumb-29.webp"
+    },
+    {
+      "id": "post-28",
+      "day": 28,
+      "type": "carousel",
+      "title": "Кухня: ближе к фасадам",
+      "caption": "Смотрю на пустые столешницы и мысленно начинаю готовить ужин.\n\nНа доске овощи, на плите сковорода, из духовки пора доставать форму. Ей нужно место прямо сейчас. И вот кухня уже перестаёт быть ровной картинкой: на ней всё время что-то передвигается.\n\nМне интересен именно этот момент — когда красивая мебель становится местом обычной жизни.",
+      "notice": "Фотопоказ из архива. Название объекта, точный вклад фабрики и кредиты уточняются.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-090.jpg",
+          "alt": "Рабочая зона светлой кухни"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-091.jpg",
+          "alt": "Кухонный остров крупным планом"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-092.jpg",
+          "alt": "Кухня с островом, общий вид"
+        }
+      ],
+      "cover": "assets/month/photo-090.jpg",
+      "alt": "Рабочая зона светлой кухни",
+      "thumbnail": "assets/month/thumb-28.webp"
+    },
+    {
+      "id": "post-27",
+      "day": 27,
+      "type": "image",
+      "title": "Розовые стулья среди зелени",
+      "caption": "Розовый вполне может быть выразительным и совсем не сладким.\n\nЗдесь его достаточно, чтобы заметить стулья, но он не подчиняет себе всю комнату. Мне нравится это соседство с деревом и зеленью: цвет остаётся яркой подробностью, а не готовым сценарием «розового интерьера».",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-117.jpg",
+          "alt": "Длинный стол, розовые поверхности и растения"
+        }
+      ],
+      "cover": "assets/month/photo-117.jpg",
+      "alt": "Длинный стол, розовые поверхности и растения",
+      "thumbnail": "assets/month/thumb-27.webp"
+    },
+    {
+      "id": "post-26",
+      "day": 26,
+      "type": "carousel",
+      "title": "Arco: свет на длинной дуге",
+      "caption": "Один из самых узнаваемых домашних светильников начался с идеи уличного фонаря.\n\nВ 1962 году Акилле и Пьер Джакомо Кастильони создали Arco для Flos: опора стоит в стороне, а плафон вынесен вперёд на длинной дуге. Мраморное основание служит противовесом.\n\nДуга, которую легко принять за красивый жест, появилась ради вполне конкретной задачи — поставить свет над столом без крепления к потолку. У уличной идеи нашлась домашняя жизнь.\n\nИзображение: Flos. История модели: Flos и MoMA.",
+      "notice": "История дизайна · внешний предмет, не изделие фабрики. Изображение: Flos.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/design-26-01.png",
+          "alt": "Торшер Arco с длинной металлической дугой и мраморным основанием на светлом фоне."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-26-02.png",
+          "alt": "Крупный фрагмент мраморного основания Arco — противовеса длинной металлической дуге."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-26-03.png",
+          "alt": "Торшер Arco и пояснение: дуга выносит свет над столом, основание остаётся на полу."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.moma.org/collection/works/1942",
+        "https://professional.flos.com/en/global/product/arco-f0300000/",
+        "https://flos.com/en/us/stories/arco-a-design-icon.html"
+      ],
+      "cover": "assets/month/design-26-01.png",
+      "alt": "Торшер Arco с длинной металлической дугой и мраморным основанием на светлом фоне.",
+      "thumbnail": "assets/month/thumb-26.webp"
+    },
+    {
+      "id": "post-25",
+      "day": 25,
+      "type": "reel",
+      "title": "Home feels good",
+      "caption": "Home feels good.\nКакой кадр тебе ближе?",
+      "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
+      "media": [
+        {
+          "type": "video",
+          "src": "assets/month/reel-ref-v2-05.mp4",
+          "poster": "assets/month/reel-ref-v2-05-poster.jpg",
+          "alt": "Home feels good"
+        }
+      ],
+      "cover": "assets/month/reel-ref-v2-05-poster.jpg",
+      "alt": "Home feels good",
+      "thumbnail": "assets/month/thumb-25-reels-v2.webp"
+    },
+    {
+      "id": "post-24",
+      "day": 24,
+      "type": "image",
+      "title": "Полки со своим светом",
+      "caption": "Пустую полку не обязательно немедленно спасать вазой.\n\nИногда самое трудное в обустройстве — остановиться, когда место ещё есть. Оставить его свободным, даже если туда прекрасно помещается ещё один предмет.\n\nМне ближе стеллаж, где у каждой вещи есть причина оказаться на виду. А у свободного места нет обязанности срочно исчезнуть.",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-051.jpg",
+          "alt": "Деревянные полки и ниши с подсветкой"
+        }
+      ],
+      "cover": "assets/month/photo-051.jpg",
+      "alt": "Деревянные полки и ниши с подсветкой",
+      "thumbnail": "assets/month/thumb-24.webp"
+    },
+    {
+      "id": "post-23",
+      "day": 23,
+      "type": "carousel",
+      "title": "Когда мебель становится стеной",
+      "caption": "Огромный шкаф можно не делать главным событием комнаты.\n\nКогда фасады воспринимаются как одна поверхность, мебель становится фоном. В этой комнате её выдают лишь тонкие стыки и небольшие отверстия вместо заметных ручек.\n\nТакой приём оставляет внимание другим вещам: рядом может появиться выразительное кресло или картина, и им не придётся спорить с каждой дверцей шкафа. Размер мебели остаётся большим, а её роль в комнате меняется.",
+      "notice": "После общего вида — два увеличенных фрагмента того же снимка.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-045.jpg",
+          "alt": "Большая деревянная встроенная стена со скруглёнными краями"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/wall-left.png",
+          "alt": "Увеличенная деталь левого скругления из того же снимка"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/wall-right.png",
+          "alt": "Увеличенная деталь правого края из того же снимка"
+        }
+      ],
+      "cover": "assets/month/photo-045.jpg",
+      "alt": "Большая деревянная встроенная стена со скруглёнными краями",
+      "thumbnail": "assets/month/thumb-10.webp"
+    },
+    {
+      "id": "post-22",
+      "day": 22,
+      "type": "carousel",
+      "title": "Стол и стулья — по отдельности",
+      "caption": "Стол и стулья я бы выбирала отдельно.\n\nУ них разные задачи: стол задаёт масштаб обеденной зоны, стулья — её характер. Мне нравится, когда между ними есть что-то общее — линия, оттенок, материал, — но каждый предмет остаётся самостоятельным.\n\nТак можно сохранить любимый стол и полностью изменить столовую, заменив только стулья.",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-022.jpg",
+          "alt": "Стул с контрастной спинкой, вид со спины"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-021.jpg",
+          "alt": "Стул с контрастными светлыми и коричневыми поверхностями"
+        }
+      ],
+      "cover": "assets/month/photo-022.jpg",
+      "alt": "Стул с контрастной спинкой, вид со спины",
+      "thumbnail": "assets/month/thumb-22.webp"
+    },
+    {
+      "id": "post-21",
+      "day": 21,
+      "type": "carousel",
+      "title": "PH 5: форма вокруг света",
+      "caption": "У PH 5 есть причина быть таким многослойным.\n\nВ 1958 году Поуль Хеннингсен создал его для Louis Poulsen. Отражающие поверхности плафона направляют свет преимущественно вниз и прикрывают источник. Из работы со светом и получился этот узнаваемый силуэт.\n\nПосле такой подробности привычный предмет видишь иначе. То, что казалось украшением, оказывается работающей частью конструкции.\n\nНа изображении — современный PH 5 Classic White. Изображение: Louis Poulsen.",
+      "notice": "История дизайна · внешний предмет, не изделие фабрики. Изображение: Louis Poulsen.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/design-21-01.png",
+          "alt": "Белый подвесной светильник PH 5 с многослойным плафоном на светло-сером фоне."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-21-02.png",
+          "alt": "Увеличенная деталь белого PH 5: слои отражающего плафона и тонкие соединяющие элементы."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-21-03.png",
+          "alt": "PH 5 и пояснение о преимущественно направленном вниз свете. Показан современный вариант Classic White Ø500."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.louispoulsen.com/en/c/indoor-lighting/pendants/ph-5?v=90293-5741099870-01"
+      ],
+      "cover": "assets/month/design-21-01.png",
+      "alt": "Белый подвесной светильник PH 5 с многослойным плафоном на светло-сером фоне.",
+      "thumbnail": "assets/month/thumb-21.webp"
+    },
+    {
+      "id": "post-20",
+      "day": 20,
+      "type": "carousel",
+      "title": "Округлые формы из комнаты в комнату",
+      "caption": "Родственная линия иногда связывает мебель лучше одинаковой отделки.\n\nУ обеденных стульев округлость обозначена тонким контуром. У кресел она становится объёмной, почти обнимающей. Стол и небольшие столики продолжают тот же поворот.\n\nВещи не повторяют друг друга, но в них чувствуется общий вкус. Каждой зоне при этом остаётся своя интонация.",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-136.jpg",
+          "alt": "Светлая гостиная с округлой мебелью"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-129.jpg",
+          "alt": "Светлая столовая с овальным столом и контрастными стульями"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-131.jpg",
+          "alt": "Другой ракурс светлой столовой"
+        }
+      ],
+      "cover": "assets/month/photo-136.jpg",
+      "alt": "Светлая гостиная с округлой мебелью",
+      "thumbnail": "assets/month/thumb-20.webp"
+    },
+    {
+      "id": "post-19",
+      "type": "reel",
+      "title": "Мидсенчури в деталях",
+      "caption": "Мидсенчури в деталях.\nКакой кадр тебе ближе?",
+      "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
+      "media": [
+        {
+          "type": "video",
+          "src": "assets/month/reel-ref-v2-01.mp4",
+          "poster": "assets/month/reel-ref-v2-01-poster.jpg",
+          "alt": "Музыкальная подборка интерьеров в эстетике mid-century"
+        }
+      ],
+      "cover": "assets/month/reel-ref-v2-01-poster.jpg",
+      "alt": "Мидсенчури в деталях",
+      "thumbnail": "assets/month/thumb-04-reels-v2.webp?v=approved-19-v1",
+      "day": 19
+    },
+    {
+      "id": "post-18",
+      "type": "carousel",
+      "title": "Когда дерево становится частью стены",
+      "caption": "Уют здесь появляется не от декора, а от большой поверхности с древесным рисунком. Она проходит через комнату — от двери до низкой тумбы — и связывает разные предметы в одну линию.\n\nНа большой плоскости дерево не выглядит ровным цветом. Рисунок меняется на свету, вертикальный ритм добавляет тени, а рядом со светлым рельефом поверхность кажется ещё теплее.\n\nМне нравится, когда стеновые панели перестают быть отдельной отделкой и становятся продолжением мебели.",
+      "notice": "Фотопоказ из архива. Точный материал панелей, название объекта и вклад фабрики требуют подтверждения.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-18/01-wood-wall-bedroom.jpg",
+          "alt": "Спальня с большой стеновой поверхностью с древесным рисунком и интегрированной дверью"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-18/02-tv-wall-bedroom.jpg",
+          "alt": "ТВ-зона с вертикальным ритмом, низкой тумбой и светлой рельефной вставкой"
+        }
+      ],
+      "cover": "assets/month/approved/post-18/01-wood-wall-bedroom.jpg",
+      "alt": "Спальня со стеновыми поверхностями с древесным рисунком",
+      "thumbnail": "assets/month/approved/thumb-post-18-project.webp?v=approved-18-v1",
+      "day": 18
+    },
+    {
+      "id": "post-17",
+      "day": 17,
+      "type": "carousel",
+      "title": "Один стол, несколько сценариев",
+      "caption": "Один длинный стол может собрать вокруг себя весь день.\n\nЗа ним садятся на пять минут, раскладывают вещи, ждут заказ, разговаривают. Рядом стойка, открытые полки и растения — разные зоны, но мебель связывает их в один маршрут.\n\nМне нравится, когда в общественном интерьере нет единственной правильной точки. Можно выбрать большой стол, место у стены или задержаться у стойки — пространство не диктует один способ быть в нём.",
+      "notice": "Фотопоказ из архива. Название объекта, точный вклад фабрики и кредиты уточняются.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-113.jpg",
+          "alt": "Стойка и деревянные элементы общественного пространства"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-116.jpg",
+          "alt": "Длинный деревянный стол в пространстве"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-122.jpg",
+          "alt": "Переход между зонами интерьера"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-124.jpg",
+          "alt": "Мебель и места в глубине пространства"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-137.jpg",
+          "alt": "Общий ракурс зоны с мебелью и стойкой"
+        }
+      ],
+      "cover": "assets/month/photo-113.jpg",
+      "alt": "Стойка и деревянные элементы общественного пространства",
+      "thumbnail": "assets/month/thumb-17.webp"
+    },
+    {
+      "id": "post-16",
+      "day": 16,
+      "type": "image",
+      "title": "Овал у окна",
+      "caption": "Светлая столовая вполне может позволить себе тёмные стулья.\n\nЗдесь без них всё было бы гораздо тише: светлый стол, стены, солнце из окна. А чёрные спинки сразу делают обеденную группу заметной.\n\nМне нравится, когда у светлого интерьера есть такая тяжесть. Не всё в комнате обязано казаться невесомым.",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-132.jpg",
+          "alt": "Овальный стол в светлой комнате"
+        }
+      ],
+      "cover": "assets/month/photo-132.jpg",
+      "alt": "Овальный стол в светлой комнате",
+      "thumbnail": "assets/month/thumb-16.webp"
+    },
+    {
+      "id": "post-15",
+      "day": 15,
+      "type": "image",
+      "title": "Ниша, в которой уже есть свет",
+      "caption": "Подсветка в шкафу заранее говорит: вот сюда смотрим.\n\nМне нравится мысль отдать такое место одной любимой вещи. Керамической чаше, фотографии, небольшой коллекции — тому, что хочется разглядывать.\n\nУ привычного предмета вдруг появляется собственная витрина. И становится заметно, за что он вообще нам нравится.",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-066.jpg",
+          "alt": "Встроенная мебель с подсвеченной нишей"
+        }
+      ],
+      "cover": "assets/month/photo-066.jpg",
+      "alt": "Встроенная мебель с подсвеченной нишей",
+      "thumbnail": "assets/month/thumb-15.webp"
+    },
+    {
+      "id": "post-14",
+      "day": 14,
+      "type": "carousel",
+      "title": "Стол, который хочется обойти",
+      "caption": "На стол Ногучи хочется смотреть даже тогда, когда он пуст.\n\nУ него всего три главных элемента: две сцепляющиеся деревянные опоры и стекло. Столешница оставляет опоры открытыми взгляду, поэтому конструкция сама становится украшением. Если заставить всё сверху, значительная часть этого впечатления пропадёт.\n\nИсаму Ногучи придумал стол около 1944 года. Herman Miller выпускает его с 1947-го — и здесь действительно интересно, как мало деталей понадобилось для настолько узнаваемой вещи.\n\nИзображение: Herman Miller. История модели: The Noguchi Museum.",
+      "notice": "История дизайна · внешний предмет, не изделие фабрики. Изображение: Herman Miller.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/design-14-01.png",
+          "alt": "Журнальный стол Noguchi с прозрачной стеклянной столешницей и чёрными деревянными опорами."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-14-02.png",
+          "alt": "Крупный фрагмент стола Noguchi с двумя сцепляющимися деревянными опорами под стеклом."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-14-03.png",
+          "alt": "Стол Noguchi на светлом фоне; прозрачная столешница оставляет скульптурную опору на виду."
+        }
+      ],
+      "sourceUrls": [
+        "https://shop.noguchi.org/products/noguchi-coffee-table"
+      ],
+      "cover": "assets/month/design-14-01.png",
+      "alt": "Журнальный стол Noguchi с прозрачной стеклянной столешницей и чёрными деревянными опорами.",
+      "thumbnail": "assets/month/thumb-14.webp"
+    },
+    {
+      "id": "post-13",
+      "day": 13,
+      "type": "carousel",
+      "title": "Рейки и их отражение",
+      "caption": "Зеркало приносит в комнату ещё один вид этой же комнаты.\n\nЗдесь в нём продолжаются рейки: материал становится заметнее без дополнительной отделки. Тот же эффект сработает с окном, открытым стеллажом или вещами в проходе.\n\nУ отражения есть своё содержание. И оно влияет на интерьер ничуть не меньше рамы.",
+      "notice": "",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/photo-076.jpg",
+          "alt": "Реечная перегородка со стороны проёма"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-082.jpg",
+          "alt": "Деревянные рейки перегородки и потолок"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/photo-083.jpg",
+          "alt": "Реечная перегородка и отражение в зеркале"
+        }
+      ],
+      "cover": "assets/month/photo-076.jpg",
+      "alt": "Реечная перегородка со стороны проёма",
+      "thumbnail": "assets/month/thumb-13.webp"
+    },
+    {
       "id": "post-12",
       "type": "reel",
       "title": "Как проходит заказ",
@@ -56,14 +511,15 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-12/elena-order-stages-mock.mp4?v=approved-12-v2",
-          "poster": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v2",
+          "src": "assets/month/approved/post-12/elena-order-stages-mock.mp4?v=approved-12-v3",
+          "poster": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v3",
           "alt": "AI-макет: Елена в тёмно-синем костюме сидит в мягком кресле с маленьким микрофоном"
         }
       ],
-      "cover": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v2",
+      "cover": "assets/month/approved/post-12/elena-order-stages-cover.png?v=approved-12-v3",
       "alt": "Елена в тёмно-синем костюме рассказывает об этапах заказа мебели",
-      "thumbnail": "assets/month/approved/thumb-post-12.webp?v=approved-12-v2"
+      "thumbnail": "assets/month/approved/thumb-post-12.webp?v=approved-12-v3",
+      "day": 12
     },
     {
       "id": "post-11",
@@ -89,7 +545,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-11/01-reception-wide.jpg",
       "alt": "Светлый интерьер с арками и закруглённым ресепшеном",
-      "thumbnail": "assets/month/approved/thumb-post-11.webp?v=approved-11-v1"
+      "thumbnail": "assets/month/approved/thumb-post-11.webp?v=approved-11-v1",
+      "day": 11
     },
     {
       "id": "post-10",
@@ -106,7 +563,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-10/japandi-home-feels-good-poster.jpg",
       "alt": "Интерьер в стиле джапанди с тёмным деревом и мягким светом",
-      "thumbnail": "assets/month/approved/thumb-post-10.webp?v=approved-10-v1"
+      "thumbnail": "assets/month/approved/thumb-post-10.webp?v=approved-10-v1",
+      "day": 10
     },
     {
       "id": "post-09",
@@ -142,7 +600,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-09/slide-01-digital.jpg",
       "alt": "Коричневый стул Isabel High от Cattelan Italia",
-      "thumbnail": "assets/month/approved/thumb-post-09.webp?v=approved-9-v1"
+      "thumbnail": "assets/month/approved/thumb-post-09.webp?v=approved-9-v1",
+      "day": 9
     },
     {
       "id": "post-08",
@@ -159,7 +618,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-08/arctic-blue-brown-poster.jpg",
       "alt": "Арктический голубой и коричневый в интерьере",
-      "thumbnail": "assets/month/approved/thumb-post-08.webp?v=approved-8-v1"
+      "thumbnail": "assets/month/approved/thumb-post-08.webp?v=approved-8-v1",
+      "day": 8
     },
     {
       "id": "post-07",
@@ -177,7 +637,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-07/elena-production-cover.png",
       "alt": "Елена в шоколадном костюме сидит в светлом кресле с микрофоном",
-      "thumbnail": "assets/month/approved/thumb-post-07.webp?v=approved-7-v1"
+      "thumbnail": "assets/month/approved/thumb-post-07.webp?v=approved-7-v1",
+      "day": 7
     },
     {
       "id": "post-06",
@@ -218,7 +679,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-06/01.jpg",
       "alt": "Современная мебель в интерьере с классической архитектурой",
-      "thumbnail": "assets/month/approved/thumb-post-06.webp?v=approved-6-v2"
+      "thumbnail": "assets/month/approved/thumb-post-06.webp?v=approved-6-v2",
+      "day": 6
     },
     {
       "id": "post-05",
@@ -260,7 +722,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-05/01.png",
       "alt": "Eames Lounge Chair на обложке карусели Предмет с историей",
-      "thumbnail": "assets/month/approved/thumb-post-05.webp?v=approved-5-v1"
+      "thumbnail": "assets/month/approved/thumb-post-05.webp?v=approved-5-v1",
+      "day": 5
     },
     {
       "id": "post-04",
@@ -278,7 +741,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/reel-ref-v2-06-poster.jpg?v=approved-4-v1",
       "alt": "Интерьер с деревянной стеной и мягким оранжевым диваном",
-      "thumbnail": "assets/month/thumb-19-reels-v2.webp?v=approved-4-v1"
+      "thumbnail": "assets/month/thumb-19-reels-v2.webp?v=approved-4-v1",
+      "day": 4
     },
     {
       "id": "post-03",
@@ -320,7 +784,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-03/01-cover-v2.jpg",
       "alt": "Цветочная студия с большим деревянным столом и встроенным стеллажом",
-      "thumbnail": "assets/month/approved/thumb-post-03-v2.webp?v=approved-6-v2"
+      "thumbnail": "assets/month/approved/thumb-post-03-v2.webp?v=approved-6-v2",
+      "day": 3
     },
     {
       "id": "post-02",
@@ -362,7 +827,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/approved/post-02/01-cover.jpg",
       "alt": "Интерьер с низкой мебелью и тёплым деревом",
-      "thumbnail": "assets/month/approved/thumb-post-02.webp?v=approved-4-v1"
+      "thumbnail": "assets/month/approved/thumb-post-02.webp?v=approved-4-v1",
+      "day": 2
     },
     {
       "id": "post-01",
@@ -380,7 +846,8 @@ globalThis.ELENA_DATA = {
       ],
       "cover": "assets/month/author-reel-01-cover-v1.png",
       "alt": "Елена сидит в мягком кресле с маленьким микрофоном",
-      "thumbnail": "assets/month/thumb-01-author-cover-v1.webp?v=approved-4-v1"
+      "thumbnail": "assets/month/thumb-01-author-cover-v1.webp?v=approved-4-v1",
+      "day": 1
     }
   ]
 };
