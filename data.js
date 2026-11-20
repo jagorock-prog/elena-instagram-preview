@@ -3,7 +3,7 @@ globalThis.ELENA_DATA = {
   "username": "__elena_zaitseva___",
   "avatar": "assets/avatar.png",
   "month": {
-    "days": 10,
+    "days": 11,
     "order": "newest-first",
     "startDate": null,
     "status": "approved_posts_preview"
@@ -47,6 +47,32 @@ globalThis.ELENA_DATA = {
     }
   ],
   "posts": [
+    {
+      "id": "post-11",
+      "type": "carousel",
+      "title": "Ресепшен работает на две стороны",
+      "caption": "Ресепшен работает на две стороны. Изнутри — это рабочее место. Снаружи — первое впечатление о пространстве.\n\nЗдесь стойка не превращается в глухую перегородку. Скруглённый торец повторяет арки, а светлая отделка визуально облегчает большой объём. Человек видит не барьер, а продолжение архитектуры.\n\nМне нравится, когда ресепшен сделан именно так: его замечаешь первым, но он не требует всё внимание себе.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-11/01-reception-wide.jpg",
+          "alt": "Общий вид светлого пространства с закруглённой стойкой ресепшена"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-11/02-reception-close.jpg",
+          "alt": "Закруглённая стойка ресепшена крупным планом"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-11/03-adjacent-zone.jpg",
+          "alt": "Соседняя зона с арками, зеркалом и латунными рейлами"
+        }
+      ],
+      "cover": "assets/month/approved/post-11/01-reception-wide.jpg",
+      "alt": "Светлый интерьер с арками и закруглённым ресепшеном",
+      "thumbnail": "assets/month/approved/thumb-post-11.webp?v=approved-11-v1"
+    },
     {
       "id": "post-10",
       "type": "reel",
