@@ -157,7 +157,7 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "image",
-          "src": "assets/month/approved/post-03/01-cover.jpg",
+          "src": "assets/month/approved/post-03/01-cover-v2.jpg",
           "alt": "Обложка: Наше производство не диктует стиль"
         },
         {
@@ -186,9 +186,9 @@ globalThis.ELENA_DATA = {
           "alt": "Финальный слайд: проект задаёт язык"
         }
       ],
-      "cover": "assets/month/approved/post-03/01-cover.jpg",
-      "alt": "Обеденная зона с крупным столом и контрастными стульями",
-      "thumbnail": "assets/month/approved/thumb-post-03.webp?v=approved-4-v1"
+      "cover": "assets/month/approved/post-03/01-cover-v2.jpg",
+      "alt": "Цветочная студия с большим деревянным столом и встроенным стеллажом",
+      "thumbnail": "assets/month/approved/thumb-post-03-v2.webp?v=approved-6-v2"
     },
     {
       "id": "post-02",
