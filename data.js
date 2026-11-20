@@ -1,9 +1,9 @@
-/* Approved four-post preview: two carousels and two playable reels. */
+/* Approved Instagram month preview. */
 globalThis.ELENA_DATA = {
   "username": "__elena_zaitseva___",
   "avatar": "assets/avatar.png",
   "month": {
-    "days": 4,
+    "days": 10,
     "order": "newest-first",
     "startDate": null,
     "status": "approved_posts_preview"
@@ -47,6 +47,23 @@ globalThis.ELENA_DATA = {
     }
   ],
   "posts": [
+    {
+      "id": "post-10",
+      "type": "reel",
+      "title": "Джапанди — когда дома становится тише",
+      "caption": "Джапанди — когда дома становится тише.\n\nКакой кадр тебе ближе?",
+      "media": [
+        {
+          "type": "video",
+          "src": "assets/month/approved/post-10/japandi-home-feels-good.mp4",
+          "poster": "assets/month/approved/post-10/japandi-home-feels-good-poster.jpg",
+          "alt": "Спокойные интерьеры в стиле джапанди под музыку"
+        }
+      ],
+      "cover": "assets/month/approved/post-10/japandi-home-feels-good-poster.jpg",
+      "alt": "Интерьер в стиле джапанди с тёмным деревом и мягким светом",
+      "thumbnail": "assets/month/approved/thumb-post-10.webp?v=approved-10-v1"
+    },
     {
       "id": "post-09",
       "type": "carousel",
