@@ -48,6 +48,42 @@ globalThis.ELENA_DATA = {
   ],
   "posts": [
     {
+      "id": "post-09",
+      "type": "carousel",
+      "title": "Isabel High — предмет и серия",
+      "caption": "Isabel — один из тех стульев, которые лучше понимаешь не по фронтальной фотографии, а в деталях.\n\nМодель придумал Паоло Каттелан для Cattelan Italia. Стальной каркас здесь полностью скрыт под обивкой, а мягкая часть словно накладывается поверх сиденья и высокой спинки. Поэтому стул выглядит собранным, но не жёстким.\n\nИменно Isabel мы заказали большой партией для одного из отелей. В таких проектах один предмет должен хорошо выглядеть не только сам по себе, но и в повторе — когда стульев в пространстве десятки.\n\nВ работе с интерьером мы можем привезти оригинальный предмет или разработать собственное решение с похожей посадкой и характером — под размеры, материалы и задачи проекта.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-09/slide-01-digital.jpg",
+          "alt": "Стул Isabel High на холодной серо-голубой digital-подложке"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-09/slide-02-front.jpg",
+          "alt": "Фронтальный вид коричневого стула Isabel High"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-09/slide-03-back.jpg",
+          "alt": "Высокая спинка стула Isabel High с заднего ракурса"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-09/slide-04-detail.jpg",
+          "alt": "Деталь обивки и швов стула Isabel High"
+        },
+        {
+          "type": "image",
+          "src": "assets/month/approved/post-09/slide-05-hotel-series.jpg",
+          "alt": "Digital-композиция из трёх стульев как образ гостиничной серии"
+        }
+      ],
+      "cover": "assets/month/approved/post-09/slide-01-digital.jpg",
+      "alt": "Коричневый стул Isabel High от Cattelan Italia",
+      "thumbnail": "assets/month/approved/thumb-post-09.webp?v=approved-9-v1"
+    },
+    {
       "id": "post-08",
       "type": "reel",
       "title": "Арктический голубой и коричневый",
