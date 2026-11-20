@@ -3,7 +3,7 @@ globalThis.ELENA_DATA = {
   "username": "__elena_zaitseva___",
   "avatar": "assets/avatar.png",
   "month": {
-    "days": 11,
+    "days": 12,
     "order": "newest-first",
     "startDate": null,
     "status": "approved_posts_preview"
@@ -47,6 +47,24 @@ globalThis.ELENA_DATA = {
     }
   ],
   "posts": [
+    {
+      "id": "post-12",
+      "type": "reel",
+      "title": "Как проходит заказ",
+      "caption": "Заказ начинается не с расчёта, а с информации.\n\nЗаказчик присылает проект, размеры или референсы. Мы разбираем, что именно нужно изготовить, уточняем материалы и детали, которые влияют на стоимость. После этого можем сделать предварительный расчёт.\n\nЕсли двигаемся дальше, приезжаем на замер и готовим рабочие чертежи. Потом согласовываем размеры, образцы, фурнитуру — и только тогда запускаем мебель в производство.\n\nФинальные этапы — доставка и монтаж. Поэтому готовый предмет начинается не в цехе. Он начинается с нормально поставленной задачи.",
+      "notice": "AI-макет будущего разговорного Reels. Для готового выпуска нужна настоящая запись Елены; последовательность этапов нужно подтвердить у команды фабрики.",
+      "media": [
+        {
+          "type": "video",
+          "src": "assets/month/approved/post-12/elena-order-stages-mock.mp4",
+          "poster": "assets/month/approved/post-12/elena-order-stages-cover.png",
+          "alt": "AI-макет: Елена в тёмно-синем костюме сидит в мягком кресле с маленьким микрофоном"
+        }
+      ],
+      "cover": "assets/month/approved/post-12/elena-order-stages-cover.png",
+      "alt": "Елена в тёмно-синем костюме рассказывает об этапах заказа мебели",
+      "thumbnail": "assets/month/approved/thumb-post-12.webp?v=approved-12-v1"
+    },
     {
       "id": "post-11",
       "type": "carousel",
