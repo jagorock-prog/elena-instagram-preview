@@ -203,20 +203,20 @@ globalThis.ELENA_DATA = {
     {
       "id": "post-24",
       "type": "reel",
-      "title": "Дерево и хром",
-      "caption": "Дерево и хром.\n\nТёплая поверхность рядом с холодным блеском металла — сочетание, построенное на контрасте.\n\nКакой кадр тебе ближе?",
+      "title": "Добро пожаловать в мидсенчури",
+      "caption": "Добро пожаловать в мидсенчури.\nЕсли тебе близок этот стиль — оставайся.",
       "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
       "media": [
         {
           "type": "video",
-          "src": "assets/month/reel-11.mp4",
-          "poster": "assets/month/reel-11-poster.jpg",
-          "alt": "Музыкальная подборка интерьеров о сочетании дерева и хромированного металла"
+          "src": "assets/month/approved/post-24-reel/03-welcome-midcentury-ru.mp4?v=ru-refresh-v1",
+          "poster": "assets/month/approved/post-24-reel/poster.jpg?v=ru-refresh-v1",
+          "alt": "Музыкальная подборка интерьеров с русским титром «Добро пожаловать в мидсенчури»"
         }
       ],
-      "cover": "assets/month/reel-11-poster.jpg",
-      "alt": "Дерево и хром в интерьере",
-      "thumbnail": "assets/month/thumb-11.webp?v=approved-24-v1",
+      "cover": "assets/month/approved/post-24-reel/poster.jpg?v=ru-refresh-v1",
+      "alt": "Добро пожаловать в мидсенчури",
+      "thumbnail": "assets/month/approved/post-24-reel/thumb.webp?v=ru-refresh-v1",
       "day": 24
     },
     {
@@ -333,14 +333,14 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/reel-ref-v2-01.mp4",
-          "poster": "assets/month/reel-ref-v2-01-poster.jpg",
-          "alt": "Музыкальная подборка интерьеров в эстетике mid-century"
+          "src": "assets/month/approved/post-19-reel/01-midcentury-ru.mp4?v=ru-refresh-v1",
+          "poster": "assets/month/approved/post-19-reel/poster.jpg?v=ru-refresh-v1",
+          "alt": "Музыкальная подборка интерьеров с русским титром «Мидсенчури»"
         }
       ],
-      "cover": "assets/month/reel-ref-v2-01-poster.jpg",
+      "cover": "assets/month/approved/post-19-reel/poster.jpg?v=ru-refresh-v1",
       "alt": "Мидсенчури в деталях",
-      "thumbnail": "assets/month/thumb-04-reels-v2.webp?v=approved-19-v1",
+      "thumbnail": "assets/month/approved/post-19-reel/thumb.webp?v=ru-refresh-v1",
       "day": 19
     },
     {
