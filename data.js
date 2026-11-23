@@ -185,20 +185,20 @@ globalThis.ELENA_DATA = {
       "id": "post-25",
       "day": 25,
       "type": "reel",
-      "title": "Home feels good",
-      "caption": "Home feels good.\nКакой кадр тебе ближе?",
+      "title": "Дома хорошо",
+      "caption": "Дома хорошо.\nКакой кадр тебе ближе?",
       "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
       "media": [
         {
           "type": "video",
-          "src": "assets/month/reel-ref-v2-05.mp4",
-          "poster": "assets/month/reel-ref-v2-05-poster.jpg",
-          "alt": "Home feels good"
+          "src": "assets/month/approved/post-25-reel/05-home-good-ru.mp4?v=ru-refresh-v1",
+          "poster": "assets/month/approved/post-25-reel/poster.jpg?v=ru-refresh-v1",
+          "alt": "Музыкальная подборка спокойных интерьеров с русским титром «Дома хорошо»"
         }
       ],
-      "cover": "assets/month/reel-ref-v2-05-poster.jpg",
-      "alt": "Home feels good",
-      "thumbnail": "assets/month/thumb-25-reels-v2.webp"
+      "cover": "assets/month/approved/post-25-reel/poster.jpg?v=ru-refresh-v1",
+      "alt": "Музыкальная подборка спокойных интерьеров с русским титром «Дома хорошо»",
+      "thumbnail": "assets/month/approved/post-25-reel/thumb.webp?v=ru-refresh-v1"
     },
     {
       "id": "post-24",
@@ -549,20 +549,21 @@ globalThis.ELENA_DATA = {
     {
       "id": "post-10",
       "type": "reel",
-      "title": "Джапанди — когда дома становится тише",
+      "title": "Добро пожаловать в джапанди",
       "caption": "Джапанди — когда дома становится тише.\n\nКакой кадр тебе ближе?",
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-10/japandi-home-feels-good.mp4",
-          "poster": "assets/month/approved/post-10/japandi-home-feels-good-poster.jpg",
-          "alt": "Спокойные интерьеры в стиле джапанди под музыку"
+          "src": "assets/month/approved/post-10-reel/04-welcome-japandi-ru.mp4?v=ru-refresh-v1",
+          "poster": "assets/month/approved/post-10-reel/poster.jpg?v=ru-refresh-v1",
+          "alt": "Музыкальная подборка интерьеров с русским титром «Добро пожаловать в джапанди»"
         }
       ],
-      "cover": "assets/month/approved/post-10/japandi-home-feels-good-poster.jpg",
-      "alt": "Интерьер в стиле джапанди с тёмным деревом и мягким светом",
-      "thumbnail": "assets/month/approved/thumb-post-10.webp?v=approved-10-v1",
-      "day": 10
+      "cover": "assets/month/approved/post-10-reel/poster.jpg?v=ru-refresh-v1",
+      "alt": "Музыкальная подборка интерьеров с русским титром «Добро пожаловать в джапанди»",
+      "thumbnail": "assets/month/approved/post-10-reel/thumb.webp?v=ru-refresh-v1",
+      "day": 10,
+      "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики."
     },
     {
       "id": "post-09",
@@ -609,15 +610,16 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-08/arctic-blue-brown.mp4",
-          "poster": "assets/month/approved/post-08/arctic-blue-brown-poster.jpg",
-          "alt": "Подборка интерьеров в арктическом голубом и коричневом цветах"
+          "src": "assets/month/approved/post-08-reel/02-color-pairing-ru.mp4?v=ru-refresh-v1",
+          "poster": "assets/month/approved/post-08-reel/poster.jpg?v=ru-refresh-v1",
+          "alt": "Музыкальная подборка интерьеров о сочетании арктического голубого и коричневого"
         }
       ],
-      "cover": "assets/month/approved/post-08/arctic-blue-brown-poster.jpg",
-      "alt": "Арктический голубой и коричневый в интерьере",
-      "thumbnail": "assets/month/approved/thumb-post-08.webp?v=approved-8-v1",
-      "day": 8
+      "cover": "assets/month/approved/post-08-reel/poster.jpg?v=ru-refresh-v1",
+      "alt": "Музыкальная подборка интерьеров о сочетании арктического голубого и коричневого",
+      "thumbnail": "assets/month/approved/post-08-reel/thumb.webp?v=ru-refresh-v1",
+      "day": 8,
+      "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики."
     },
     {
       "id": "post-07",
@@ -726,20 +728,20 @@ globalThis.ELENA_DATA = {
     {
       "id": "post-04",
       "type": "reel",
-      "title": "If this is your vibe",
+      "title": "Если это твой вайб",
       "caption": "Если это и твой вайб — оставайся.\nЗдесь будет много таких интерьеров.",
       "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
       "media": [
         {
           "type": "video",
-          "src": "assets/month/reel-ref-v2-06.mp4",
-          "poster": "assets/month/reel-ref-v2-06-poster.jpg?v=approved-4-v1",
-          "alt": "Интерьерная подборка If this is your vibe"
+          "src": "assets/month/approved/post-04-reel/06-vibe-ru.mp4?v=ru-refresh-v1",
+          "poster": "assets/month/approved/post-04-reel/poster.jpg?v=ru-refresh-v1",
+          "alt": "Музыкальная подборка интерьеров с русским титром «Если это твой вайб»"
         }
       ],
-      "cover": "assets/month/reel-ref-v2-06-poster.jpg?v=approved-4-v1",
-      "alt": "Интерьер с деревянной стеной и мягким оранжевым диваном",
-      "thumbnail": "assets/month/thumb-19-reels-v2.webp?v=approved-4-v1",
+      "cover": "assets/month/approved/post-04-reel/poster.jpg?v=ru-refresh-v1",
+      "alt": "Музыкальная подборка интерьеров с русским титром «Если это твой вайб»",
+      "thumbnail": "assets/month/approved/post-04-reel/thumb.webp?v=ru-refresh-v1",
       "day": 4
     },
     {
