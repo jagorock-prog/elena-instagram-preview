@@ -3,7 +3,7 @@ globalThis.ELENA_DATA = {
   "username": "__elena_zaitseva___",
   "avatar": "assets/avatar.png",
   "month": {
-    "days": 30,
+    "days": 31,
     "order": "newest-first",
     "startDate": null,
     "status": "full_month_preview"
@@ -48,7 +48,7 @@ globalThis.ELENA_DATA = {
   ],
   "posts": [
     {
-      "id": "post-30",
+      "id": "post-31",
       "type": "reel",
       "title": "Красивый интерьер начинается с мебели",
       "caption": "Красивый интерьер часто начинается не с ремонта, а с мебели.",
@@ -56,15 +56,46 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-30-reel/furniture-4k-higher-titles-bass30.mp4?v=post-30-v1",
-          "poster": "assets/month/approved/post-30-reel/poster.jpg?v=post-30-v1",
+          "src": "assets/month/approved/post-30-reel/furniture-4k-higher-titles-bass30.mp4?v=post-31-v1",
+          "poster": "assets/month/approved/post-30-reel/poster.jpg?v=post-31-v1",
           "alt": "Разговорный Reels о любви к дизайну, мебели и собственному производству"
         }
       ],
-      "cover": "assets/month/approved/post-30-reel/poster.jpg?v=post-30-v1",
+      "cover": "assets/month/approved/post-30-reel/poster.jpg?v=post-31-v1",
       "alt": "Красивый интерьер начинается с мебели",
-      "thumbnail": "assets/month/approved/post-30-reel/thumb.webp?v=post-30-v1",
-      "day": 30
+      "thumbnail": "assets/month/approved/post-30-reel/thumb.webp?v=post-31-v1",
+      "day": 31
+    },
+    {
+      "id": "post-30",
+      "day": 30,
+      "type": "carousel",
+      "title": "CH24: одна линия спинки",
+      "caption": "У CH24 узнаваемость буквально держится на букве Y.\n\nВ 1949 году Ханс Й. Вегнер объединил спинку и подлокотники в одну изогнутую линию. Y-образная деталь поддерживает её посередине, оставляя спинку открытой. То, что нужно конструкции, одновременно стало знаком всей модели.\n\nCarl Hansen & Søn выпускает стул с 1950 года. Его интересно рассматривать без разговоров о трендах: убрать или заменить центральную опору — и перед нами уже другой предмет.\n\nИзображение: Carl Hansen & Søn.",
+      "notice": "История дизайна · внешний предмет, не изделие фабрики. Изображение: Carl Hansen & Søn.",
+      "media": [
+        {
+          "type": "image",
+          "src": "assets/month/design-07-01.png",
+          "alt": "Стул CH24 из дерева с Y-образной спинкой и плетёным сиденьем на светлом фоне."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-07-02.png",
+          "alt": "Крупный фрагмент CH24: объединённая линия спинки и подлокотников, Y-образная опора."
+        },
+        {
+          "type": "image",
+          "src": "assets/month/design-07-03.png",
+          "alt": "Открытый силуэт стула CH24 и короткое наблюдение о его виде со спины."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/ch24"
+      ],
+      "cover": "assets/month/design-07-01.png",
+      "alt": "Стул CH24 из дерева с Y-образной спинкой и плетёным сиденьем на светлом фоне.",
+      "thumbnail": "assets/month/thumb-07.webp"
     },
     {
       "id": "post-29",

@@ -175,7 +175,7 @@ if (typeof document !== 'undefined') (() => {
     byId('post-title').textContent = activePost.title;
     byId('post-caption').textContent = activePost.caption || '';
     const format = ({ image: 'Публикация', carousel: 'Карусель', reel: 'Reels' })[activePost.type];
-    byId('post-format').textContent = activePost.day ? `${format} · День ${activePost.day} из 30` : format;
+    byId('post-format').textContent = activePost.day ? `${format} · День ${activePost.day} из ${data.month.days}` : format;
     byId('prev-post').disabled = current <= 0;
     byId('next-post').disabled = current < 0 || current >= visible.length - 1;
     byId('save-button').setAttribute('aria-pressed', String(saved.has(activePost.id)));
