@@ -56,7 +56,7 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-30-reel/furniture-4k-higher-titles-bass30.mp4?v=post-31-v1",
+          "src": "assets/month/approved/post-30-reel/furniture-4k-person-flash-click.mp4",
           "poster": "assets/month/approved/post-30-reel/poster.jpg?v=post-31-v1",
           "alt": "Разговорный Reels о любви к дизайну, мебели и собственному производству"
         }
