@@ -210,37 +210,18 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-25-reel/05-home-good-ru.mp4?v=ru-refresh-v1",
-          "poster": "assets/month/approved/post-25-reel/poster.jpg?v=ru-refresh-v1",
+          "src": "assets/month/approved/post-25-reel/05-home-good-ru-final.mp4",
+          "poster": "assets/month/approved/post-25-reel/poster-final.jpg",
           "alt": "Музыкальная подборка спокойных интерьеров с русским титром «Дома хорошо»"
         }
       ],
-      "cover": "assets/month/approved/post-25-reel/poster.jpg?v=ru-refresh-v1",
+      "cover": "assets/month/approved/post-25-reel/poster-final.jpg",
       "alt": "Музыкальная подборка спокойных интерьеров с русским титром «Дома хорошо»",
-      "thumbnail": "assets/month/approved/post-25-reel/thumb.webp?v=ru-refresh-v1"
-    },
-    {
-      "id": "post-24",
-      "type": "reel",
-      "title": "Добро пожаловать в мидсенчури",
-      "caption": "Добро пожаловать в мидсенчури.\nЕсли тебе близок этот стиль — оставайся.",
-      "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
-      "media": [
-        {
-          "type": "video",
-          "src": "assets/month/approved/post-24-reel/03-welcome-midcentury-ru.mp4?v=ru-refresh-v1",
-          "poster": "assets/month/approved/post-24-reel/poster.jpg?v=ru-refresh-v1",
-          "alt": "Музыкальная подборка интерьеров с русским титром «Добро пожаловать в мидсенчури»"
-        }
-      ],
-      "cover": "assets/month/approved/post-24-reel/poster.jpg?v=ru-refresh-v1",
-      "alt": "Добро пожаловать в мидсенчури",
-      "thumbnail": "assets/month/approved/post-24-reel/thumb.webp?v=ru-refresh-v1",
-      "day": 24
+      "thumbnail": "assets/month/approved/post-25-reel/thumb-final.webp"
     },
     {
       "id": "post-23",
-      "day": 23,
+      "day": 24,
       "type": "carousel",
       "title": "Две стены — один проект",
       "caption": "В одной комнате не нужны две стены, которые одновременно требуют внимания.\n\nЗдесь одна сторона остаётся активной: открытые полки, подсветка и диагональный рисунок. Вторая собрана гораздо тише — ровные фасады от пола до потолка.\n\nЗа счёт этого композиция не распадается. У комнаты есть главный акцент и спокойный фон.",
@@ -260,6 +241,25 @@ globalThis.ELENA_DATA = {
       "cover": "assets/month/photo-051.jpg",
       "alt": "Две мебельные стены одного помещения",
       "thumbnail": "assets/month/thumb-24.webp?v=approved-23-v2"
+    },
+    {
+      "id": "post-24",
+      "type": "reel",
+      "title": "Добро пожаловать в мидсенчури",
+      "caption": "Добро пожаловать в мидсенчури.\nЕсли тебе близок этот стиль — оставайся.",
+      "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики.",
+      "media": [
+        {
+          "type": "video",
+          "src": "assets/month/approved/post-24-reel/03-welcome-midcentury-ru-final.mp4",
+          "poster": "assets/month/approved/post-24-reel/poster-final.jpg",
+          "alt": "Музыкальная подборка интерьеров с русским титром «Добро пожаловать в мидсенчури»"
+        }
+      ],
+      "cover": "assets/month/approved/post-24-reel/poster-final.jpg",
+      "alt": "Добро пожаловать в мидсенчури",
+      "thumbnail": "assets/month/approved/post-24-reel/thumb-final.webp",
+      "day": 23
     },
     {
       "id": "post-22",
@@ -352,14 +352,14 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-19-reel/01-midcentury-ru.mp4?v=ru-refresh-v1",
-          "poster": "assets/month/approved/post-19-reel/poster.jpg?v=ru-refresh-v1",
+          "src": "assets/month/approved/post-19-reel/01-midcentury-ru-final.mp4",
+          "poster": "assets/month/approved/post-19-reel/poster-final.jpg",
           "alt": "Музыкальная подборка интерьеров с русским титром «Мидсенчури»"
         }
       ],
-      "cover": "assets/month/approved/post-19-reel/poster.jpg?v=ru-refresh-v1",
+      "cover": "assets/month/approved/post-19-reel/poster-final.jpg",
       "alt": "Мидсенчури в деталях",
-      "thumbnail": "assets/month/approved/post-19-reel/thumb.webp?v=ru-refresh-v1",
+      "thumbnail": "assets/month/approved/post-19-reel/thumb-final.webp",
       "day": 19
     },
     {
@@ -568,19 +568,19 @@ globalThis.ELENA_DATA = {
     {
       "id": "post-10",
       "type": "reel",
-      "title": "Добро пожаловать в джапанди",
+      "title": "Джапанди — дерево и камень",
       "caption": "Джапанди — когда дома становится тише.\n\nКакой кадр тебе ближе?",
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-10-reel/04-welcome-japandi-ru.mp4?v=ru-refresh-v1",
-          "poster": "assets/month/approved/post-10-reel/poster.jpg?v=ru-refresh-v1",
-          "alt": "Музыкальная подборка интерьеров с русским титром «Добро пожаловать в джапанди»"
+          "src": "assets/month/approved/post-10-reel/04-welcome-japandi-ru-final.mp4",
+          "poster": "assets/month/approved/post-10-reel/poster-final.jpg",
+          "alt": "Музыкальная подборка интерьеров с русским титром «Джапанди — дерево и камень»"
         }
       ],
-      "cover": "assets/month/approved/post-10-reel/poster.jpg?v=ru-refresh-v1",
-      "alt": "Музыкальная подборка интерьеров с русским титром «Добро пожаловать в джапанди»",
-      "thumbnail": "assets/month/approved/post-10-reel/thumb.webp?v=ru-refresh-v1",
+      "cover": "assets/month/approved/post-10-reel/poster-final.jpg",
+      "alt": "Музыкальная подборка интерьеров с русским титром «Джапанди — дерево и камень»",
+      "thumbnail": "assets/month/approved/post-10-reel/thumb-final.webp",
       "day": 10,
       "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики."
     },
@@ -629,35 +629,16 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-08-reel/02-color-pairing-ru.mp4?v=ru-refresh-v1",
-          "poster": "assets/month/approved/post-08-reel/poster.jpg?v=ru-refresh-v1",
+          "src": "assets/month/approved/post-08-reel/02-color-pairing-ru-final.mp4",
+          "poster": "assets/month/approved/post-08-reel/poster-final.jpg",
           "alt": "Музыкальная подборка интерьеров о сочетании арктического голубого и коричневого"
         }
       ],
-      "cover": "assets/month/approved/post-08-reel/poster.jpg?v=ru-refresh-v1",
+      "cover": "assets/month/approved/post-08-reel/poster-final.jpg",
       "alt": "Музыкальная подборка интерьеров о сочетании арктического голубого и коричневого",
-      "thumbnail": "assets/month/approved/post-08-reel/thumb.webp?v=ru-refresh-v1",
+      "thumbnail": "assets/month/approved/post-08-reel/thumb-final.webp",
       "day": 8,
       "notice": "Подборка вдохновения. Показанные интерьеры — референсы, не портфолио фабрики."
-    },
-    {
-      "id": "post-07",
-      "type": "reel",
-      "title": "Красивый эскиз — ещё не мебель",
-      "caption": "Между красивым эскизом и готовой мебелью — десятки решений, которых на картинке просто нет.\n\nГде пройдёт соединение, какой толщины будет деталь, как откроется фасад, что примет на себя нагрузку. Всё это почти исчезнет в готовом предмете — если было решено правильно.\n\nПроизводство не печатает эскиз. Оно переводит его в материал и конструкцию.",
-      "notice": "AI-макет будущего разговорного Reels. Для готового выпуска нужна настоящая запись Елены по утверждённому сценарию.",
-      "media": [
-        {
-          "type": "video",
-          "src": "assets/month/approved/post-07/elena-production-mock.mp4",
-          "poster": "assets/month/approved/post-07/elena-production-cover.png",
-          "alt": "AI-макет: Елена в шоколадном костюме сидит в светлом кресле с микрофоном"
-        }
-      ],
-      "cover": "assets/month/approved/post-07/elena-production-cover.png",
-      "alt": "Елена в шоколадном костюме сидит в светлом кресле с микрофоном",
-      "thumbnail": "assets/month/approved/thumb-post-07.webp?v=approved-7-v1",
-      "day": 7
     },
     {
       "id": "post-06",
@@ -699,6 +680,25 @@ globalThis.ELENA_DATA = {
       "cover": "assets/month/approved/post-06/01.jpg",
       "alt": "Современная мебель в интерьере с классической архитектурой",
       "thumbnail": "assets/month/approved/thumb-post-06.webp?v=approved-6-v2",
+      "day": 7
+    },
+    {
+      "id": "post-07",
+      "type": "reel",
+      "title": "Красивый эскиз — ещё не мебель",
+      "caption": "Между красивым эскизом и готовой мебелью — десятки решений, которых на картинке просто нет.\n\nГде пройдёт соединение, какой толщины будет деталь, как откроется фасад, что примет на себя нагрузку. Всё это почти исчезнет в готовом предмете — если было решено правильно.\n\nПроизводство не печатает эскиз. Оно переводит его в материал и конструкцию.",
+      "notice": "AI-макет будущего разговорного Reels. Для готового выпуска нужна настоящая запись Елены по утверждённому сценарию.",
+      "media": [
+        {
+          "type": "video",
+          "src": "assets/month/approved/post-07/elena-production-mock.mp4",
+          "poster": "assets/month/approved/post-07/elena-production-cover.png",
+          "alt": "AI-макет: Елена в шоколадном костюме сидит в светлом кресле с микрофоном"
+        }
+      ],
+      "cover": "assets/month/approved/post-07/elena-production-cover.png",
+      "alt": "Елена в шоколадном костюме сидит в светлом кресле с микрофоном",
+      "thumbnail": "assets/month/approved/thumb-post-07.webp?v=approved-7-v1",
       "day": 6
     },
     {
@@ -753,14 +753,14 @@ globalThis.ELENA_DATA = {
       "media": [
         {
           "type": "video",
-          "src": "assets/month/approved/post-04-reel/06-vibe-ru.mp4?v=ru-refresh-v1",
-          "poster": "assets/month/approved/post-04-reel/poster.jpg?v=ru-refresh-v1",
+          "src": "assets/month/approved/post-04-reel/06-vibe-ru-final.mp4",
+          "poster": "assets/month/approved/post-04-reel/poster-final.jpg",
           "alt": "Музыкальная подборка интерьеров с русским титром «Если это твой вайб»"
         }
       ],
-      "cover": "assets/month/approved/post-04-reel/poster.jpg?v=ru-refresh-v1",
+      "cover": "assets/month/approved/post-04-reel/poster-final.jpg",
       "alt": "Музыкальная подборка интерьеров с русским титром «Если это твой вайб»",
-      "thumbnail": "assets/month/approved/post-04-reel/thumb.webp?v=ru-refresh-v1",
+      "thumbnail": "assets/month/approved/post-04-reel/thumb-final.webp",
       "day": 4
     },
     {
